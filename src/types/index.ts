@@ -1,10 +1,10 @@
 export type Contact = {
-  id: number;
-  name: string;
-  phone: string;
+  id: Number;
+  name: String;
+  phone: String;
 };
 
 export type CreateContact = {
-  name: string;
-  phone: string;
+  name: String;
+  phone: String;
 }
