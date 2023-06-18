@@ -11,11 +11,15 @@ const Header: React.FC = () => {
   return (
     <>
       <div className="flex justify-between items-center">
-        <h2 className="text-xl">Contacts</h2>
+        <h2 className="text-2xl">
+          <i className="fa-solid fa-address-book mr-2"></i>
+          Contacts
+        </h2>
         <button
-          className="py-3 px-10 rounded-md bg-sky-700 hover:bg-sky-600 text-white"
+          className="py-3 px-8 rounded-md bg-sky-700 hover:bg-sky-600 text-white"
           onClick={toggleCreateContact}
         >
+          <i className="fa-solid fa-plus mr-2"></i>
           Add Contact
         </button>
       </div>

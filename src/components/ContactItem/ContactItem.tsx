@@ -12,8 +12,8 @@ const ContactItem: React.FC<Props> = ({contact}) => {
         <p className="text-xl">{contact.name}</p>
         <p className="text-sm text-gray-400">{contact.phone}</p>
       </div>
-      <button className="py-3 px-10 rounded-md bg-red-700 hover:bg-red-600 text-white">
-        Delete
+      <button className="py-3 px-5 rounded-md bg-red-700 hover:bg-red-600 text-white">
+        <i className="fa-solid fa-trash"></i>
       </button>
     </div>
   );
